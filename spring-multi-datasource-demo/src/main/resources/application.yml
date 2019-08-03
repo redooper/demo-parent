@@ -1,0 +1,16 @@
+spring:
+  multi-datasource:
+    defaultTargetDataSource: db_foo
+    targetDataSources:
+      db_foo:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+#        jdbc-url: jdbc:mysql://localhost:3306/db_foo
+        url: jdbc:mysql://localhost:3306/db_foo
+        username: root
+        password: songshu
+      db_bar:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+#        jdbc-url: jdbc:mysql://localhost:3306/db_bar
+        url: jdbc:mysql://localhost:3306/db_bar
+        username: root
+        password: songshu
