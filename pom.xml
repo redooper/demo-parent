@@ -59,7 +59,7 @@
 
         <!-- redooper -->
         <spring-data-redis-bloom-filter.version>1.0.0-SNAPSHOT</spring-data-redis-bloom-filter.version>
-        <spring-multi-datasource.version>1.0.0-SNAPSHOT</spring-multi-datasource.version>
+        <spring-multi-datasource.version>1.0.1-SNAPSHOT</spring-multi-datasource.version>
     </properties>
 
     <dependencyManagement>
